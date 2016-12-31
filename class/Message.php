@@ -20,7 +20,7 @@ class Message
 
     public function sendSms($numero, $text, $login, $password) {
 
-        $url = 'http://localhost:14000/cgi-bin/sendsms?username='.$login.'&password='.$password.'&to='.$numero.'&text='.urlencode($text);
+        $url = 'http://localhost:14000/cgi-bin/sendsms?from=Sanarsoft&username='.$login.'&password='.$password.'&to='.$numero.'&text='.urlencode($text);
        // passthru("php -S http://localhost:14000.$url");
         $results = curl_init();
         curl_setopt($results, CURLOPT_RETURNTRANSFER, true);

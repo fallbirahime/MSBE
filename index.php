@@ -89,7 +89,7 @@ if (!empty($_POST)) {
 
             <label for="object">Libellé</label>
 
-            <input type="text" name="text" class="form-control">
+            <textarea  name="text" class="form-control"></textarea>
 
         </div>
 
