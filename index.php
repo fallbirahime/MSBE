@@ -52,7 +52,7 @@ if (!empty($_POST)) {
 
 
 
-    <h1>Envoi de message</h1>
+    <h1>Bienvenu sur la plateforme infocampus</h1>
 
 <?php if (!empty($erreurs)): ?>
     <div class="alert alert-danger">
